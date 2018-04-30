@@ -1,6 +1,3 @@
-USE DSTRAINING
-GO
-
 SELECT A.StationID, NoStart, NoEnd
 FROM
 (SELECT StationID, COUNT(StartStation) as NoStart
